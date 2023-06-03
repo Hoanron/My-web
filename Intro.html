@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./qlsanpham.css">
+    <link rel="stylesheet" href="./stylee.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div id="header">
+        <div class="header__container">
+            <div class="header__about">
+                <div class="header__about-sm">
+                    <a href="https://www.facebook.com/" class="header__about-sm-fb">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" class="header__about-sm-insta">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" class="header__about-sm-ytb">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+
+                <div class="header__about-info">
+                    <!-- Nếu là admin mới xuất hiện bánh răng -->
+                    <div class="header__about-info-setting">
+                        <a href="#"> <i class="fa-solid fa-gear"></i></a>
+                    </div>
+                    <div class="header__about-info-signup" onclick="openForm_Register()">ĐĂNG KÝ</div>
+                    <div class="header__about-info-signin" onclick="openForm_Login()">ĐĂNG NHẬP</div>
+                    <div class="header__about-info-logout"><i class="fa-solid fa-right-from-bracket"></i></div>
+                    <div class="header__about-info-name"><p></p></div>
+                    <div class="header__about-info-cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="header__about-info-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Nhập sản phẩm muốn tìm..." class="header__about-info-search-input hide">
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__menu">
+                <a class="header__logo" href="index.html">
+                    <img src="./image/logo.jpg" alt="" class="header__logo-img">
+                </a>
+                <div class="header__menu-phone">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="header__menu-list hide-menu">
+                    <div class="header__menu-item item-products" id="home">
+                        <a href="index.html"><p>TRANG CHỦ</p></a>
+                    </div>
+                    <div class="header__menu-item item-products" id="iphone"><p>IPHONE</p></div>
+                    <div class="header__menu-item item-products" id="oppo"><p>OPPO</p></div>
+                    <div class="header__menu-item item-products" id="samsung"><p>SAMSUNG</p></div>
+                    <div class="header__menu-item item-products" id="accessory"><p>PHỤ KIỆN</p></div>
+                    <div class="header__menu-item item-products" id="intro"><a href="Intro.html">GIỚI THIỆU</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="about__us">
+            <h2>GIỚI THIỆU VỀ SINH VIÊN VÀ TRANG WEB</h2>
+            <br><br>
+            SINH VIÊN THỰC HIỆN ĐỒ ÁN: LIÊU HOÀNG LONG. MSSV: 2001215922
+            <br><br>
+            LONG'S TECH SHOP ĐEM ĐẾN SỰ CẢI TIẾN CHO MỌI NGƯỜI BỞI NHỮNG SẢN PHẨM CHẤT LƯỢNG VÀ CÓ Ý NGHĨA LỚN ĐỐI VỚI CỘNG ĐỒNG NHỮNG NGƯỜI YÊU CÔNG NGHỆ CŨNG NHƯ MONG MUỐN TÌM KIẾM SỰ AN TÂM TRONG NHỮNG LỰA CHỌN LÂU DÀI.
+            <br><br>
+            SẢN PHẨM ĐƯỢC SẢN XUẤT VÀ GIA CÔNG BỞI NGƯỜI VIỆT VỚI NGUỒN NGUYÊN LIỆU CHẤT LƯỢNG QUỐC TẾ. NHỮNG SẢN PHẨM CÓ Ý NGHĨA, TÍCH CỰC VÀ CÓ GIÁ TRỊ TINH THẦN CAO TRONG VIỆC ĐÓNG GÓP GIÚP CÁC NGHỆ SỸ TÀI NĂNG Ở MỌI LỨA TUỔI PHÁT TRIỂN CÁC CỘNG ĐỒNG VĂN HÓA TIỆM CẬN GIỚI TRẺ NÓI CHUNG.
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
